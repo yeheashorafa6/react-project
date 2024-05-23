@@ -1,0 +1,16 @@
+#model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   background: rgba(0, 0, 0, 0.203);
+   width: 98vw;
+   height: 30vh;
+}
+
+.form-model{
+    background-color: white;
+    width: 50%;
+    color: green !important;
+
+}

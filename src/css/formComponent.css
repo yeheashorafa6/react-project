@@ -1,0 +1,82 @@
+
+:root{
+    --primary-color : #0D002D;
+    --secodry-color : #2B00A0;
+    --white-color : white
+
+  }
+
+.form-section{
+    width: 70%;
+    background: var(--secodry-color) ;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+hr{
+    width: 90%;
+    color: var(--white-color);
+    margin-bottom: 30px;
+
+}
+
+.form-section .head .title{
+    font-size: 35px;
+    color: var(--white-color);
+    padding: 10px;   
+
+}
+
+.form-section .form-label{
+    color: var(--white-color);
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.form-section .form-controll{
+    width: 80%;
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.form-controll[type=checkbox] {
+    border-radius: .25em;
+    padding: 20px;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.form-controll.select{
+color: #757575;
+}
+
+
+button:disabled{
+    color: #757575;
+    background-color: var(--white-color);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+button:enabled{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
